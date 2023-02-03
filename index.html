@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Селекторы</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+    #viol
+    {color: rgba(17, 224, 131, 0.87);
+    }
+</style>
+<style>
+    p.pink{color: #f675c2;}
+</style>
+<style>
+    div *{background-color:yellow}
+</style>
+</head>
+<body>
+<header>
+<nav>
+В этом предложении
+<b id="viol">я использую селектор #id
+</b>
+<p class="pink"><b>A теперь селектор.class</b></p>
+  <h3>Мне очень нравится тема селекторы!</h3>
+<div>
+<p>Узнала много нового</p>
+    <p>Надеюсь дз выполню на отлично)</p>
+ </div>
+<p id="example">Lorem ipsum
+    <em>dolor</em>
+    sit amet, consectetur adipisicing
+    <em>elit</em>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<em>А вот здесь стилей нет</em>
+<h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+</h1>
+<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+</h2>
+<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+</h3>
+<ul>
+<li style="color: rgba(61, 42, 165, 0.789);font-weight: 800 ; font: 1.5em sans-serif;"><b>*</b> - универсальный селектор. Выбирает все.</li>
+<li style="color: rgba(61, 42, 165, 0.789);font-weight: 800 ; font: 1.5em sans-serif;"><b>h2</b> - выбирает все элементы указанного типа.</li>
+<li style="color: rgba(61, 42, 165, 0.789);font-weight: 800 ; font: 1.5em sans-serif;"><b>.class</b> - выбирает элемент у которого есть атрибут class с указанным значением</li>
+<li style="color: rgba(61,42,165,0.789);font-weight: 800; font:1.5em sans-serif;"><b>#id</b> - выбирает элемент у которого есть атрибут id с указанным значением</li>
+<li style="color: rgba(61,42,165,0.789);font-weight: 800; font:1.5em sans-serif;"><b>tag</b>  - применяется ко всем указанным элементам. Часто используется для задания цвета, фона, шрифта и др.</li>
+<li style="color: rgba(61, 42, 165, 0.789);font-weight: 800 ; font: 1.5em sans-serif;"><b> a:link, a:visited, a:hover, a:active, a:focus</b> - выбирает элементы (обычно это поля формы или ссылки) в зависимости от их состояния.</li>
+<li style="color: rgba(61,42,165,0.789); font-weight:800;font:1.5em sans-serif;"><b>[attr]</b> - выбирает элементы, которые содержат указанный атрибут.</li>
+<li style="color: rgba(61,42,165,0.789); font-weight:800;font:1.5em sans-serif;"><b>:checked</b> - cтилизует выбранные radio / checkbox.</li>
+<li style="color: rgba(61, 42, 165, 0.789);font-weight: 800 ; font: 1.5em sans-serif;"><b>:focus</b> - выбирает активный HTML элемент, тот который находится в фокусе. Обычно применяется к элементам формы.</li>
+</ul>
+</nav>
+</header>
+</body>
+</html>
